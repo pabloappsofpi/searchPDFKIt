@@ -14,6 +14,8 @@
 		FD1E6D54215555B90015548D /* Pdf_Get_Current_PageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E6D53215555B90015548D /* Pdf_Get_Current_PageTests.swift */; };
 		FD1E6D5F215555B90015548D /* Pdf_Get_Current_PageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1E6D5E215555B90015548D /* Pdf_Get_Current_PageUITests.swift */; };
 		FD1E6D6E215558790015548D /* 22 laws.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD1E6D6D215558780015548D /* 22 laws.pdf */; };
+		FD7A1C01215A7596006618A3 /* Hamlet.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD7A1C00215A7595006618A3 /* Hamlet.pdf */; };
+		FD7A1C03215A7799006618A3 /* Othello.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FD7A1C02215A7799006618A3 /* Othello.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		FD1E6D5E215555B90015548D /* Pdf_Get_Current_PageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pdf_Get_Current_PageUITests.swift; sourceTree = "<group>"; };
 		FD1E6D60215555B90015548D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD1E6D6D215558780015548D /* 22 laws.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "22 laws.pdf"; path = "../../../AppsOfPi/2. Embed a Pdf and get Current Page/2. Embed a Pdf and get Current Page/PDF/22 laws.pdf"; sourceTree = "<group>"; };
+		FD7A1C00215A7595006618A3 /* Hamlet.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Hamlet.pdf; sourceTree = "<group>"; };
+		FD7A1C02215A7799006618A3 /* Othello.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Othello.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 		FD1E6D6C2155584B0015548D /* PDF */ = {
 			isa = PBXGroup;
 			children = (
+				FD7A1C00215A7595006618A3 /* Hamlet.pdf */,
+				FD7A1C02215A7799006618A3 /* Othello.pdf */,
 				FD1E6D6D215558780015548D /* 22 laws.pdf */,
 			);
 			path = PDF;
@@ -240,6 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD1E6D45215555B90015548D /* Assets.xcassets in Resources */,
+				FD7A1C03215A7799006618A3 /* Othello.pdf in Resources */,
+				FD7A1C01215A7596006618A3 /* Hamlet.pdf in Resources */,
 				FD1E6D48215555B90015548D /* Main.storyboard in Resources */,
 				FD1E6D6E215558790015548D /* 22 laws.pdf in Resources */,
 			);
